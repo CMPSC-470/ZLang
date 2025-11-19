@@ -1,0 +1,17 @@
+vibe main() {
+
+// Test for ZLang
+
+   lit counter = 0
+
+   yap counter < 3:
+
+	say("Looping..")
+	say("counter")
+	counter = counter + 1
+
+   if counter == 3:
+	say("All done!")
+
+}
+

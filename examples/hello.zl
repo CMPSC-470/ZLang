@@ -1,0 +1,9 @@
+vibe main() {
+
+// Printing to the console
+// Use the spill command to get input from the user
+
+   name = spill("What is your name?)
+   say("My name is " + name)
+
+}
