@@ -17,6 +17,7 @@ class TokenType(Enum):
     # conditionals
     IF = auto()
     ELSE = auto()
+    ELSE_IF = auto()
 
 
 
@@ -46,6 +47,8 @@ class TokenType(Enum):
     SEMICOLON = auto()
     COMMA = auto()
     COMMENT = auto()
+    BRACE_LEFT = auto()
+    BRACE_RIGHT = auto()
 
 
     # End of file
