@@ -12,6 +12,7 @@ class TokenType(Enum):
     SQUAD = auto()
     FAM = auto()
     YES = auto()
+    YAP = auto()
     JAWN = auto()
 
     # conditionals
