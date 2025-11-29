@@ -8,7 +8,7 @@ import os
 root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Path to example file
-file_path = os.path.join(root_dir, "examples", "counter.zl")
+file_path = os.path.join(root_dir, "examples", "hello.zl")
 with open(file_path, "r") as file:
     source_code = file.read()
 
