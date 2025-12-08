@@ -1,5 +1,3 @@
-from curses.ascii import isdigit
-
 from compiler.lexer.Token import Token
 from compiler.lexer.TokenType import TokenType
 
