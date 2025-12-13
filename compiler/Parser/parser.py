@@ -72,6 +72,7 @@ class Parser:
         if self._match(TokenType.SAY):
             return ExprStmt(self._parse_call_from_keyword('say'))
 
+
         # assignment or expression statement
         if self._check(TokenType.IDENTIFIER):
             # lookahead for assignment

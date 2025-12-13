@@ -117,6 +117,10 @@ class Tokenizer:
                 self.tokens.append(Token(TokenType.GREATER_THAN, ">"))
             case '<':
                 self.tokens.append(Token(TokenType.LESS_THAN, "<"))
+            case '{':
+                self.tokens.append(Token(TokenType.BRACE_LEFT, "{"))
+            case '}':
+                self.tokens.append(Token(TokenType.BRACE_RIGHT, "}"))
 
 
 
